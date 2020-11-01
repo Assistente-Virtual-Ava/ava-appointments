@@ -1,3 +1,3 @@
 RewriteEngine on
 
-DirectoryIndex src/index.php src/index.html
+DirectoryIndex ./src/index.php
