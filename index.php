@@ -1,4 +1,7 @@
 <?php
+header("Access-Control-Allow-Headers: Authorization, Content-Type");
+header("Access-Control-Allow-Origin: *");
+header('content-type: application/json; charset=utf-8');
 /**
  * CodeIgniter
  *
@@ -54,7 +57,7 @@
   * EASY!APPOINTMENTS AUTOLOAD FILE
   *---------------------------------------------------------------
   *
-  * Include Easy!Appointments autoload file so that namespace 
+  * Include Easy!Appointments autoload file so that namespace
   * classes are loaded automatically.
   *
   */
