@@ -1,3 +1,6 @@
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET time_zone = "+00:00";
+
 CREATE TABLE IF NOT EXISTS `ea_appointments` (
     `id` INT(11) NOT NULL AUTO_INCREMENT,
     `book_datetime` DATETIME,
